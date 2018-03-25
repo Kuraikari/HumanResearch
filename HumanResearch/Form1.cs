@@ -21,7 +21,6 @@ namespace HumanResearch
             InitializeComponent();
         }
 
-
         public void readMessages()
         {
             foreach (var line in txtAllMessages.Lines)
