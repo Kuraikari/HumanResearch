@@ -30,6 +30,7 @@ namespace HumanResearch
         public Blutgruppe bloodtype { get; set; }
         public Beziehungsstatus relationshipstatus { get; set; }
         public DateTime birthdate { get; set; }
+        public Mind mind { get; set; }
 
         //Enumerations
         public enum Geschlecht { Male, Female, Other }

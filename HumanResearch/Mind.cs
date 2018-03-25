@@ -8,8 +8,20 @@ namespace HumanResearch
 {
     public class Mind
     {
-        List<Synapse> synapses;
-        List<Neuron> neurons;
+
+        private List<Synapse> synapses { get; set; }
+        private List<Neuron> neurons { get; set; }
+        private Status status { get; set; }
+
+        //Enums
+        private enum Status { working, pause, idle }
+
+        public Mind()
+        {
+            this.synapses = new List<Synapse>();
+            this.neurons = new List<Neuron>();
+            this.status = Status.idle;
+        }
 
         private class Synapse
         {

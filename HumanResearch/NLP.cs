@@ -376,10 +376,7 @@ namespace HumanResearch
 
         public struct Präposition
         {
-            public enum position
-            { 
-                vor, hinter, auf, in, im, neben, durch, über, unter
-            }
+            public enum position { vor, hinter, auf, _in, im, neben, durch, über, unter }
         }
     }
 
